@@ -1,7 +1,11 @@
 #include<stdio.h>
-
-void main(){
+#include<stdlib.h>
+void main(int* argc,char* argv[]){
 	float a=0, b=0;
+	if(argc!=3){
+		printf("please provide only 2 numbers to add.");
+		exit(1);
+	}
 	printf("\nfirst number:");
 	scanf("%f",&a);
 	printf("\nSecond number:");
