@@ -1,2 +1,2 @@
 # jenkin-test
-nseit devops workshop
+ci/cd bootcamp
